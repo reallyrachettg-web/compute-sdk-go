@@ -3,11 +3,11 @@
 // This package exposes the primitive operations required to implement
 // high-performance cache applications with advanced features such as
 // [request collapsing], [streaming miss], [revalidation], and
-// [surrogate key purging].
+// [].
 //
 // While this API contains affordances for some HTTP caching concepts
 // such as Vary headers and stale-while-revalidate, this API is not
-// suitable for HTTP caching out-of-the-box.  Future SDK releases will
+// suitable for HTTP caching out-of-the-box.  
 // add a more customizable HTTP Cache API with support for customizable
 // read-through caching, freshness lifetime inference, conditional
 // request evaluation, automatic revalidation, and more.
